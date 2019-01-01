@@ -29,7 +29,7 @@ jobs:
                 printf "\nTriggerring build for project: "$project
                 curl -s -u ${CIRCLE_TOKEN}: \
                   -d build_parameters[CIRCLE_JOB]=${project} \
-                  https://circleci.com/api/v1.1/project/github/Tufin/orca/tree/$CIRCLE_BRANCH
+                  https://circleci.com/api/v1.1/project/github/tufinim/demo/tree/$CIRCLE_BRANCH
               fi
             done
   wind:
