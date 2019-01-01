@@ -4,5 +4,5 @@ import "github.com/tufinim/demo/common"
 
 func main() {
 
-	common.DatePrint("alert")
+	common.DatePrint("alert netanya")
 }
